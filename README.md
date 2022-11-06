@@ -51,7 +51,7 @@ After modifying the dataset, it was found that there are 163 files whose audio f
 | .ort files | 72.25 | 43.92 |
 
 ## Citation
-Link to the original [ShEMO](https://github.com/pariajm/sharif-emotional-speech-dataset) dataset.
+Link to the original [ShEMO](https://github.com/mansourehk/ShEMO) dataset.
 
 ### contact
 ali.yazdani@mail.sbu.ac.ir
