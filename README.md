@@ -20,19 +20,19 @@ The file ***modified_shemo.json*** contains the modified dataset samples with th
 ```
 Here is a sample of modified dataset:
 ```json
-"F01A01.wav": {
-    "path": "shemo/F01A01.wav",
+"F21N05.wav": {
+    "path": "shemo/F21N05.wav",
     "gender": "female",
-    "speech_name": "F01A01",
-    "text_name": "F01A01",
-    "emotion": "anger",
-    "transcript": "\u062f\u06cc\u06af\u0647 \u0646\u0645\u06cc\u200e\u062a\u0648\u0646\u0645 \u062a\u062d\u0645\u0644 \u06a9\u0646\u0645.",
-    "ipa": "dige nemitun\u04d5m t\u04d5h\u04d5mmol kon\u04d5m"
+    "speech_name": "F21N05",
+    "text_name": "F21N37",
+    "emotion": "neutral",
+    "transcript": "مگه من به تو نگفته بودم که باید راجع به دورانت سکوت کنی؟",
+    "ipa": "mӕge mæn be to nægofte budӕm ke bɑyæd rɑdʒeʔ be dorɑnt sokut koni"
 }
 ```
 
 ## Sharif Emotional Speech Database (ShEMO)
-the ShEMO dataset contains 3000 audio files along with 3000 text files for each sentence as a ground-truth transcription. The text file of the sentence related to the corresponding audio file can be found through the names of the files. In fact, the audio and the text file of an utterance have the same name. But out of 3000 files, only 2838 have the same name. With further investigations, we found that some of these text files have the wrong names and referred to the wrong audio file. In the picture below, examples of errors in referencing audio and text files can be seen. We fixed the errors and inconsistencies in ShEMO dataset by using an Automatic Speech Recognition (ASR) system
+the ShEMO dataset contains 3000 audio files along with 3000 text files for each sentence as a ground-truth transcription. The text file of the sentence related to the corresponding audio file can be found through the names of the files. In fact, the audio and the text file of an utterance have the same name. But out of 3000 files, only 2838 have the same name. With further investigations, we found that some of these text files have the wrong names and referred to the wrong audio file. In the picture below, examples of errors in referencing audio and text files can be seen. We fixed the errors and inconsistencies in ShEMO dataset by using an Automatic Speech Recognition (ASR) system.
 
 <img src="https://user-images.githubusercontent.com/55990659/200169946-fb1d0af5-186a-4742-b5a1-f282aa861e44.PNG" alt="ShEMO errors" width="400"/>
 
