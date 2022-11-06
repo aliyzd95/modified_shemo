@@ -33,10 +33,11 @@ Here is a sample of modified dataset:
 
 ## Sharif Emotional Speech Database (ShEMO)
 the ShEMO dataset contains 3000 audio files along with 3000 text files for each sentence as a ground-truth transcription. The text file of the sentence related to the corresponding audio file can be found through the names of the files. In fact, the audio and the text file of an utterance have the same name. But out of 3000 files, only 2838 have the same name. With further investigations, we found that some of these text files have the wrong names and referred to the wrong audio file. In the picture below, examples of errors in referencing audio and text files can be seen. We fixed the errors and inconsistencies in ShEMO dataset by using an Automatic Speech Recognition (ASR) system
+
 <img src="https://user-images.githubusercontent.com/55990659/200169946-fb1d0af5-186a-4742-b5a1-f282aa861e44.PNG" alt="ShEMO errors" width="400"/>
 
 ## Contradictions Correction
-To recognize the correct names of these files, a 5-gram language model was used on the corpus of the ShEMO dataset. Thus, the speech recognition system, with the help of the language model, will recognize sentences more accurately. Then the sentences whose WER and CER metrics are more than 0.5 are compared with each other to find the correct text file. There are 347 files out of a total of 3000 files in the dataset that meet the mentioned conditions. The result of modifying the dataset is much fewer errors in sentence recognition. As shown in the table below, the WER in this dataset has been greatly reduced after correcting the text files related to each audio file.
+To recognize the correct names of these files, a 4-gram language model on Web2Corpus was used. Thus, the ASR system, with the help of the language model, will recognize sentences more accurately. Then the sentences whose WER and CER metrics are more than 0.5 are compared with each other to find the correct text file. There are 347 files out of a total of 3000 files in the dataset that meet the mentioned conditions. The result of modifying the dataset is much fewer errors in sentence recognition. As shown in the table below, the WER in this dataset has been greatly reduced after correcting the text files related to each audio file.
 | ShEMO Modification | Word Error Rate |
 | --- | --- |
 | Before | 51.97 |
