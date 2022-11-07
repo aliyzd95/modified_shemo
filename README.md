@@ -14,7 +14,7 @@ The file ***modified_shemo.json*** contains the modified dataset samples with th
     "speech_name": Name of the .wav file in the original dataset,
     "text_name": Name of the .ort file in the original dataset,
     "emotion": Emotional label based on text files,
-    "transcript": Ground-Truth text transcription of the utterance,
+    "transcript": Ground-Truth orthographic transcription of the utterance,
     "ipa": Phonetic transcription of the utterance according to the IPA standard
 }
 ```
@@ -51,7 +51,7 @@ After modifying the dataset, it was found that there are 163 files whose audio f
 | .ort files | 72.25 | 43.92 |
 
 ## Citation
-Link to the original [ShEMO](https://github.com/mansourehk/ShEMO) dataset.
+You can use [this](https://github.com/pariajm/sharif-emotional-speech-dataset) or [this](https://github.com/mansourehk/ShEMO) link to access the original ShEMO dataset.
 
 ### contact
 ali.yazdani@mail.sbu.ac.ir
