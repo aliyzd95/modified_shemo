@@ -18,7 +18,7 @@ The file ***modified_shemo.json*** contains the modified dataset samples with th
     "ipa": Phonetic transcription of the utterance according to the IPA standard
 }
 ```
-Here is a sample of modified dataset:
+Here is a sample of the modified dataset:
 ```json
 "F21N05.wav": {
     "path": "shemo/F21N05.wav",
