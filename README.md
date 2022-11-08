@@ -1,7 +1,7 @@
 # [ShEMO-Modification]()
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-This repository contains a modification on the Shemo dataset with help of an Automatic Speech Recognition (ASR) system.
+This repository contains a modification on the ShEMO dataset with help of an Automatic Speech Recognition (ASR) system.
 
 For more information, please read our [paper]().
 
@@ -51,6 +51,11 @@ After modifying the dataset, it was found that there are 163 files whose audio f
 | .ort files | 72.25 | 43.92 |
 
 ## Citation
+If you use this dataset in your reserch, please cite the following paper
+```
+# TO DO: Add Link
+```
+
 You can use [this](https://github.com/pariajm/sharif-emotional-speech-dataset) or [this](https://github.com/mansourehk/ShEMO) link to access the original ShEMO dataset.
 
 ### contact
