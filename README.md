@@ -3,7 +3,7 @@
 
 This repository contains a modification on the ShEMO dataset with help of an Automatic Speech Recognition (ASR) system.
 
-For more information, please read our [paper]().
+For more information, please read our [paper](https://arxiv.org/pdf/2211.09956).
 
 ## Data Samples
 The file ***modified_shemo.json*** contains the modified dataset samples with the following attributes.
