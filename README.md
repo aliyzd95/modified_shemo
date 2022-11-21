@@ -1,4 +1,4 @@
-# [ShEMO-Modification]()
+# [ShEMO-Modification](https://arxiv.org/abs/2211.09956)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 This repository contains a modification on the ShEMO dataset with help of an Automatic Speech Recognition (ASR) system.
@@ -53,7 +53,16 @@ After modifying the dataset, it was found that there are 163 files whose audio f
 ## Citation
 If you use this dataset in your reserch, please cite the following paper
 ```
-# TO DO: Add Link
+@misc{https://doi.org/10.48550/arxiv.2211.09956,
+  doi = {10.48550/ARXIV.2211.09956},
+  url = {https://arxiv.org/abs/2211.09956},
+  author = {Yazdani, Ali and Shekofteh, Yasser},
+  keywords = {Audio and Speech Processing (eess.AS), Artificial Intelligence (cs.AI), Sound (cs.SD), FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Computer and information sciences, FOS: Computer and information sciences, I.2, 68T10 (Primary) 68T50, 68T07 (Secondary)},
+  title = {A Persian ASR-based SER: Modification of Sharif Emotional Speech Database and Investigation of Persian Text Corpora},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
 ```
 
 You can use [this](https://github.com/pariajm/sharif-emotional-speech-dataset) or [this](https://github.com/mansourehk/ShEMO) link to access the original ShEMO dataset.
